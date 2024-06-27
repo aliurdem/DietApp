@@ -1,0 +1,59 @@
+.logs-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.logs-content-container {
+  width: 100%;
+  max-width: 1200px; 
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+
+.logs-table .ant-table {
+  background-color: #fffbe6;
+  border-radius: 10px;
+}
+
+.logs-table .ant-table-thead > tr > th {
+  background-color: #ffecb3;
+}
+
+.logs-table .ant-table-tbody > tr > td {
+  background-color: #fffbe6;
+}
+
+.logs-table .ant-table-body {
+  height: 500px; 
+  overflow-y: auto; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.logs-table .ant-table-body::-webkit-scrollbar {
+  width: 0; 
+  height: 0; 
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
